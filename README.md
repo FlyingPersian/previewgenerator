@@ -93,4 +93,4 @@ Note:
  ### I get  "PHP Fatal error:  Allowed memory size of X bytes exhausted"
  You need to increase the memory allowance of PHP, by default it is 128 MB. You do that by changing the memory_limit in the php.ini file.
  
- If you use the docker container you need to create the php.ini file in /usr/local/etc/php first.
+ If you use the docker container you need to create the php.ini file in /usr/local/etc/php first. See here: https://github.com/nextcloud/docker/issues/1014#issuecomment-595887548
